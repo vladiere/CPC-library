@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for the cpc library system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladiere/CPC-library"
+  },
+  "author": "vladiere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladiere/CPC-library/issues"
+  },
+  "homepage": "https://github.com/vladiere/CPC-library#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "tesseract.js": "^4.1.0"
+  }
+}
